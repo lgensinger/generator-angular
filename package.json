@@ -1,0 +1,30 @@
+{
+  "name": "generator-lg-angular",
+  "version": "1.0.0",
+  "description": "Yeoman generator for Angular js app with d3 directives.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgensinger/angular-generator.git"
+  },
+  "keywords": [
+    "angular",
+    "d3.js",
+    "yeoman-generator"
+  ],
+  "author": "lgensinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgensinger/angular-generator/issues"
+  },
+  "homepage": "https://github.com/lgensinger/angular-generator#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.21.1"
+  },
+	"files": [
+		"generators/app"
+	]
+}
