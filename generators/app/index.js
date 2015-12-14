@@ -146,6 +146,17 @@ module.exports = generators.Base.extend({
             this.templatePath("data/nodeLink.json"),
             this.destinationPath("www/data/nodeLink.json")
         );
+		
+		// express server
+        this.fs.copyTpl(
+            this.templatePath("app.js"),
+            this.destinationPath("app.js")
+        );
+		
+		this.fs.copyTpl(
+            this.templatePath("routes/index.js"),
+            this.destinationPath("routes/index.js")
+        );
         
     },
     
